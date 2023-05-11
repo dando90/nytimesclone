@@ -1,0 +1,35 @@
+.footer-container {
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-container::before {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.footer-sections-container {
+  margin: 10px;
+}
+
+.footer-list li {
+  width: 45%;
+}
+
+/*Media queries*/
+@media only screen and (min-width: 576px) {
+  .footer-list li {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 961px) {
+  .footer-list li {
+    width: 23%;
+  }
+}
